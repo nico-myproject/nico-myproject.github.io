@@ -59,7 +59,6 @@
   .card[hidden]{display:none!important}
   #empty[hidden]{display:none}
   .project-note{font-size:12px;color:var(--muted2);border-top:1px solid var(--border);padding-top:12px;margin-top:14px}
-
   #empty{display:none;text-align:center;padding:60px 20px;border:1px dashed #2E2E32;border-radius:16px;color:var(--muted);grid-column:1/-1}
   #empty b{color:#fff;display:block;font-size:17px;margin-bottom:6px}
   .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding-bottom:80px}
@@ -86,7 +85,6 @@
 </style>
 </head>
 <body>
-
 <header>
   <div class="wrap">
     <div class="top">
@@ -107,12 +105,11 @@
     </div>
   </div>
 </header>
-
 <main class="wrap">
   <div class="toolbar">
     <div class="toolbar-top">
       <div><h2>All Projects</h2><p>Search or filter by category.</p></div>
-      <div id="resultCount">Showing 20 of 20 projects</div>
+      <div id="resultCount">Showing 17 of 17 projects</div>
     </div>
     <div class="search-wrap">
       <span class="search-icon" aria-hidden="true">⌕</span>
@@ -144,89 +141,71 @@
       <button type="button" id="resetFilters" class="reset-btn">Reset filters ↺</button>
     </div>
   </div>
-
   <div class="grid" id="grid">
-
     <article class="card" data-cat="data">
       <div class="thumb"><img src="https://nico-alfianto.github.io/customer-churn-analysis/images/churn_distribution.png" alt="Customer Churn Analysis"></div>
       <div class="body"><span class="cat">Data Analytics</span><h3>Customer Churn Analysis</h3><p>Analyzed 7,032 telecom customers to identify churn drivers. Discovered Month-to-Month users churn 15x more than Two-Year contracts and proposed 4 data-driven retention strategies.</p><div class="tech"><span>Python</span><span>Pandas</span><span>Seaborn</span><span>Google Colab</span></div><a class="btn" href="https://nico-alfianto.github.io/customer-churn-analysis" target="_blank" rel="noopener noreferrer">View Project <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="data">
       <div class="thumb"><img src="https://nico-alfianto.github.io/customer-value-analysis-rfm-logistic-regression/img/customer.png" alt="Customer Value Analysis"></div>
       <div class="body"><span class="cat">Machine Learning</span><h3>Customer Value Analysis</h3><p>Segmented 4,338 UK retail customers using RFM Analysis and Logistic Regression. Found that 33.3% of customers generate 84.9% of total revenue and built a predictive model for high-value customers.</p><div class="tech"><span>Python</span><span>RFM</span><span>Scikit-Learn</span><span>Logistic Regression</span></div><a class="btn" href="https://nico-alfianto.github.io/customer-value-analysis-rfm-logistic-regression" target="_blank" rel="noopener noreferrer">View Project <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="data">
       <div class="thumb"><img src="https://nico-alfianto.github.io/sales-performance-analysis/images/1.png" alt="Sales Performance"></div>
       <div class="body"><span class="cat">Business Analytics</span><h3>Sales Performance Analysis</h3><p>Analyzed $2.29M in retail sales across 9,994 transactions. Identified Technology as the highest-profit category with 17.4% margin and uncovered low-margin issues in Furniture.</p><div class="tech"><span>Python</span><span>Pandas</span><span>Matplotlib</span><span>EDA</span></div><a class="btn" href="https://nico-alfianto.github.io/sales-performance-analysis" target="_blank" rel="noopener noreferrer">View Project <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="data">
       <div class="thumb"><img src="https://nico-alfianto.github.io/iot-tourism-analysis/qqplot_residual.png" alt="IoT Tourism"></div>
       <div class="body"><span class="cat">Data Analytics · Regression</span><h3>IoT Tourism Satisfaction Analysis</h3><p>Built a Multiple Linear Regression model using IoT tourism data. Achieved R² = 0.623 while satisfying normality, homoscedasticity, and autocorrelation assumptions.</p><div class="tech"><span>RStudio</span><span>Regression</span><span>IoT Data</span><span>Statistical Testing</span></div><a class="btn" href="https://nico-alfianto.github.io/iot-tourism-analysis" target="_blank" rel="noopener noreferrer">View Project <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="ai">
       <div class="thumb"><img src="https://nico-alfianto.github.io/sentiment-analyzer-ibm-bob/prompt%20ibm%20bob.png" alt="IBM watsonx AI Agent"></div>
       <div class="body"><span class="cat">AI Agent · NLP · IBM watsonx</span><h3>Customer Feedback Sentiment Analyzer AI Agent</h3><p>Developed an AI Agent using IBM watsonx Granite for Indonesian MSMEs. Automatically classifies customer sentiment from reviews and generates actionable business recommendations.</p><div class="tech"><span>IBM watsonx</span><span>Granite-3-8B</span><span>Prompt Engineering</span><span>NLP</span></div><a class="btn" href="https://nico-alfianto.github.io/sentiment-analyzer-ibm-bob/" target="_blank" rel="noopener noreferrer">View Project <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="web">
       <div class="thumb"><img src="https://webasisstentour.rf.gd/assets/static/images/logo/asisten.png" alt="Assistentour Testing"></div>
       <div class="body"><span class="cat">Software Quality Assurance</span><h3>Assistentour Backend Website Testing</h3><p>Executed full Software Testing Life Cycle for a tourism website. Created 28 test cases and automated testing with Selenium WebDriver. Achieved 82.1% success rate and documented 5 critical UI bugs.</p><div class="tech"><span>STLC</span><span>Selenium</span><span>Functional Testing</span><span>Bug Reporting</span></div><a class="btn" href="https://nico-alfianto.github.io/assistentour-stlc-testing" target="_blank" rel="noopener noreferrer">View Report <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="web">
       <div class="thumb"><img src="https://nico-alfianto.github.io/ratnalisa-pos/preview.jpeg" alt="Ratnalisa"></div>
       <div class="body"><span class="cat">Web Development · Capstone</span><h3>Ratnalisa — Patient Registration System</h3><p>Web-based patient registration system built with Prototyping Method. Includes online registration, service selection, payment management, and admin dashboard with complete ERD, LRS, and UML documentation.</p><div class="tech"><span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>ERD</span></div><a class="btn" href="https://nico-alfianto.github.io/ratnalisa-pos" target="_blank" rel="noopener noreferrer">View Project <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="database">
       <div class="thumb"><img src="https://nico-alfianto.github.io/music-streaming-playlist-database/images/erd.jpg" alt="Music Streaming DB"></div>
       <div class="body"><span class="cat">Database Design</span><h3>Music Streaming Database</h3><p>Designed a normalized relational database for a music streaming platform. Implemented 6 tables with ERD, LRS, and SQL queries to manage users, artists, albums, and playlists.</p><div class="tech"><span>MySQL</span><span>SQL</span><span>ERD</span><span>LRS</span></div><a class="btn" href="https://nico-alfianto.github.io/music-streaming-playlist-database" target="_blank" rel="noopener noreferrer">View Project <span>→</span></a></div>
     </article>
-
-    <article class="card" data-cat="data">
+        <article class="card" data-cat="data">
       <div class="thumb"><img src="https://nico-alfianto.github.io/crisp-dm-tourism-recommendation-decision-tree/results/confusion.png" alt="Tourism Recommendation"></div>
       <div class="body"><span class="cat">Machine Learning</span><h3>Tourism Recommendation System</h3><p>Built a tourism destination classification system using CRISP-DM methodology and Decision Tree algorithm. Model achieved 41% accuracy with 80% recall for high-rated destinations.</p><div class="tech"><span>Python</span><span>Scikit-Learn</span><span>Decision Tree</span><span>CRISP-DM</span></div><a class="btn" href="https://nico-alfianto.github.io/crisp-dm-tourism-recommendation-decision-tree" target="_blank" rel="noopener noreferrer">View Project <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="data">
       <div class="thumb"><img src="https://nico-alfianto.github.io/video-game-sales-analysis/images/platform_sales.jpg" alt="Video Game Sales"></div>
       <div class="body"><span class="cat">Data Analytics</span><h3>Video Game Sales Analysis</h3><p>Performed EDA on 16,500+ video game records to identify market trends. Found GameBoy as the top-selling platform and 2008–2010 as the peak sales period.</p><div class="tech"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Visualization</span></div><a class="btn" href="https://nico-alfianto.github.io/video-game-sales-analysis" target="_blank" rel="noopener noreferrer">View Project <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="ai">
       <div class="thumb"><img src="https://nico-alfianto.github.io/customer-sentiment-analyzer/ss/flow.png" alt="Sentiment Analyzer Gemini"></div>
       <div class="body"><span class="cat">AI · NLP</span><h3>Customer Feedback Sentiment Analyzer — Gemini</h3><p>AI-powered system using Langflow and Google Gemini to analyze laptop customer reviews. Automatically classifies sentiment and extracts themes to support business decision making.</p><div class="tech"><span>Langflow</span><span>Google Gemini</span><span>Python</span><span>CSV</span></div><a class="btn" href="https://nico-alfianto.github.io/customer-sentiment-analyzer" target="_blank" rel="noopener noreferrer">View Project <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="web">
       <div class="thumb"><img src="https://ppdb.infinityfree.io/img/logo_smk.jpg" alt="PPDB Online"></div>
       <div class="body"><span class="cat">Web Development · CodeIgniter 3</span><h3>PPDB Online SMK Al Ghazaly</h3><p>Developed an online student admission system for SMK Al Ghazaly. Enables online registration, requirement checks, and admin verification with automated registration numbers.</p><div class="tech"><span>PHP</span><span>CodeIgniter 3</span><span>MySQL</span><span>Bootstrap</span></div><a class="btn" href="https://ppdb.infinityfree.io/" target="_blank" rel="noopener noreferrer">Visit Website <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="web">
       <div class="thumb"><img src="https://raw.githubusercontent.com/nico-alfianto/webbali-tourism-website/main/screenshots/home.jpg" alt="Bali Tourism"></div>
       <div class="body"><span class="cat">Web Development</span><h3>Bali Tourism Website</h3><p>Responsive tourism website showcasing Bali destinations, culture, traditional food, and travel information with mobile-first design.</p><div class="tech"><span>PHP</span><span>Tailwind CSS</span><span>JavaScript</span></div><a class="btn" href="https://webbali-demo.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer">View Web Demo <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="web">
       <div class="thumb"><img src="https://nico-alfianto.github.io/assisten_tour/assets/img/banner1.jpg" alt="Assistant Tour Flutter"></div>
       <div class="body"><span class="cat">Mobile App + Web Demo</span><h3>Assistant Tour — Flutter Demo</h3><p>Responsive web version of Flutter tourism booking app. Includes login, booking, payment, boarding pass, and review features using LocalStorage for offline data.</p><div class="tech"><span>Flutter</span><span>Dart</span><span>HTML5</span><span>LocalStorage</span></div><a class="btn" href="https://nico-alfianto.github.io/assisten-tour-flutter-demo/home.html" target="_blank" rel="noopener noreferrer">View Web Demo <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="web">
       <div class="thumb"><img src="https://play-lh.googleusercontent.com/lzuYvKiNnlX2iat0wYisXqO0lqBsQkPOMhNLvMJLuknXcwlvYI92as_ZJz25DOTT2G5te-nngf9rnsliiFx5w-Y" alt="House Rental"></div>
       <div class="body"><span class="cat">UI/UX Design · Product Design</span><h3>House Rental App Prototype</h3><p>Designed a house rental application prototype using Design Thinking and FGD. Features location-based search, transparent payment, and interactive maps to improve user experience.</p><div class="tech"><span>Figma</span><span>Design Thinking</span><span>UI Guidelines</span></div><a class="btn" href="https://www.figma.com/proto/Yxqy0jKn1RTXU1UHzxDLs9/Aplikasi-rental-rumah?node-id=0-1&t=qbpWSXmC88QRk538-1" target="_blank" rel="noopener noreferrer">View Prototype <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="web">
       <div class="thumb"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2070&auto=format&fit=crop" alt="Assistentour"></div>
       <div class="body"><span class="cat">Web Development · UI/UX · Prototype</span><h3>AssistenTour — Sistem Informasi Manajemen Pariwisata</h3><p>Final Project Sistem Informasi Manajemen. Tourism management system using Prototype method. Features destination search, interactive maps, booking, itinerary, and QRIS payment. Usability Testing: 85% ease of use.</p><div class="team"><strong>Team:</strong> Muhammad Ikhsan Basuki, Nico Alfianto, Marcho Dominggus D. Timisela, Awaludin Al Ayubi, Nethar Balawan M. Mulki</div><div class="tech"><span>Figma</span><span>Prototype Method</span><span>UML</span><span>Usability Testing</span></div><a class="btn" href="https://www.figma.com/proto/vSERNdJ2QV0swMOoCbfjRt/AssistenTour?node-id=5-921&starting-point-node-id=5%3A921" target="_blank" rel="noopener noreferrer">View Prototype <span>→</span></a></div>
     </article>
-
     <article class="card" data-cat="web">
       <div class="thumb"><img src="https://nico-alfianto.github.io/Parkir-Tunai-Python/images/dashboard.jpg" alt="Parking Management System"></div>
       <div class="body">
@@ -234,24 +213,21 @@
         <h3>Parking Management System</h3>
         <p>CLI-based parking management application with vehicle entry, exit, automatic fee calculation, and daily reporting.</p>
         <div class="tech"><span>Python</span><span>CLI</span></div>
-        <div class="https://nico-alfianto.github.io/Parkir-Tunai-Python/">View Project</div>
+        <a class="btn" href="https://nico-alfianto.github.io/Parkir-Tunai-Python/" target="_blank" rel="noopener noreferrer">View Project <span>→</span></a>
       </div>
     </article>
-
     <div id="empty" hidden>
       <b>No projects found</b>
       Try another keyword or adjust your filters.
     </div>
   </div>
 </main>
-
 <footer>
   <div class="wrap">
     <span>© 2026 Nico Alfianto. All rights reserved.</span>
     <a href="https://github.com/nico-alfianto" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
   </div>
 </footer>
-
 <script>
 (() => {
   const grid = document.getElementById('grid');
@@ -264,8 +240,6 @@
   const cards = [...grid.querySelectorAll('.card')];
   const totalProjects = cards.length;
   let activeCategory = 'all';
-
-  // Populate the technology dropdown from the technology tags in each card.
   const technologies = new Set();
   cards.forEach(card => {
     card.querySelectorAll('.tech span').forEach(tag => {
@@ -273,68 +247,38 @@
       if (value) technologies.add(value);
     });
   });
-
   [...technologies].sort((a, b) => a.localeCompare(b)).forEach(technology => {
     const option = document.createElement('option');
     option.value = technology.toLowerCase();
     option.textContent = technology;
     technologyFilter.appendChild(option);
   });
-
-  // Cache searchable text and original order.
   cards.forEach((card, index) => {
     card.dataset.originalIndex = index;
     card.dataset.searchText = card.innerText.toLocaleLowerCase();
   });
-
   function applyFilter() {
     const keyword = searchInput.value.trim().toLocaleLowerCase();
     const selectedTechnology = technologyFilter.value;
     let visibleCards = [];
-
     cards.forEach(card => {
-      const categoryMatches =
-        activeCategory === 'all' || card.dataset.cat === activeCategory;
-
-      const keywordMatches =
-        !keyword || card.dataset.searchText.includes(keyword);
-
-      const technologyMatches =
-        !selectedTechnology ||
-        [...card.querySelectorAll('.tech span')].some(tag =>
-          tag.textContent.trim().toLocaleLowerCase() === selectedTechnology
-        );
-
+      const categoryMatches = activeCategory === 'all' || card.dataset.cat === activeCategory;
+      const keywordMatches = !keyword || card.dataset.searchText.includes(keyword);
+      const technologyMatches = !selectedTechnology || [...card.querySelectorAll('.tech span')].some(tag => tag.textContent.trim().toLocaleLowerCase() === selectedTechnology);
       const show = categoryMatches && keywordMatches && technologyMatches;
       card.hidden = !show;
-
       if (show) visibleCards.push(card);
     });
-
     const sortMode = sortSelect.value;
     visibleCards.sort((a, b) => {
-      if (sortMode === 'az') {
-        return a.querySelector('h3').textContent.localeCompare(
-          b.querySelector('h3').textContent
-        );
-      }
-      if (sortMode === 'za') {
-        return b.querySelector('h3').textContent.localeCompare(
-          a.querySelector('h3').textContent
-        );
-      }
+      if (sortMode === 'az') return a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent);
+      if (sortMode === 'za') return b.querySelector('h3').textContent.localeCompare(a.querySelector('h3').textContent);
       return Number(a.dataset.originalIndex) - Number(b.dataset.originalIndex);
     });
-
-    // Reorder only visible cards; hidden cards remain in the DOM.
     visibleCards.forEach(card => grid.appendChild(card));
-
-    resultCount.textContent =
-      `Showing ${visibleCards.length} of ${totalProjects} projects`;
-
+    resultCount.textContent = `Showing ${visibleCards.length} of ${totalProjects} projects`;
     document.getElementById('empty').hidden = visibleCards.length !== 0;
   }
-
   function setFilter(category, button) {
     activeCategory = category;
     filterButtons.forEach(item => {
@@ -344,17 +288,12 @@
     });
     applyFilter();
   }
-
   filterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      setFilter(button.dataset.filter, button);
-    });
+    button.addEventListener('click', () => { setFilter(button.dataset.filter, button); });
   });
-
   searchInput.addEventListener('input', applyFilter);
   technologyFilter.addEventListener('change', applyFilter);
   sortSelect.addEventListener('change', applyFilter);
-
   resetButton.addEventListener('click', () => {
     searchInput.value = '';
     technologyFilter.value = '';
@@ -363,11 +302,8 @@
     setFilter('all', allButton);
     searchInput.focus();
   });
-
-  // Keep the portfolio project count in the header accurate.
   const projectCountLabel = document.getElementById('projectCount');
   projectCountLabel.textContent = `${totalProjects} Projects`;
-
   applyFilter();
 })();
 </script>
